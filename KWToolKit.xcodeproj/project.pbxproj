@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1856E64EAA090AFADC5F7C85 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F50240E87787CB8FE4570A42 /* libPods.a */; };
+		293352901CC4DC6200C6F7F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2933528F1CC4DC6200C6F7F6 /* main.m */; };
+		293352931CC4DC6200C6F7F6 /* NKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 293352921CC4DC6200C6F7F6 /* NKAppDelegate.m */; };
+		2933529B1CC4DC6200C6F7F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2933529A1CC4DC6200C6F7F6 /* Assets.xcassets */; };
+		2952EC2F1CC5109C00FF8519 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2952EC2E1CC5109C00FF8519 /* LaunchScreen.storyboard */; };
+		2952EC461CC5129400FF8519 /* NKCommonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2952EC401CC5129400FF8519 /* NKCommonController.m */; };
+		2952EC471CC5129400FF8519 /* NKHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2952EC421CC5129400FF8519 /* NKHomeController.m */; };
+		2952EC481CC5129400FF8519 /* NKCommonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2952EC451CC5129400FF8519 /* NKCommonView.m */; };
+		2952EC4B1CC513CB00FF8519 /* NKStuckTraceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2952EC4A1CC513CB00FF8519 /* NKStuckTraceController.m */; };
+		29ED96E01CC5CF890049E9DB /* NKTraceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 29ED96D61CC5CF890049E9DB /* NKTraceManager.m */; };
+		29ED96E11CC5CF890049E9DB /* PLCrashFrameWalker.c in Sources */ = {isa = PBXBuildFile; fileRef = 29ED96D81CC5CF890049E9DB /* PLCrashFrameWalker.c */; };
+		29ED96E21CC5CF890049E9DB /* PLCrashFrameWalker_arm.c in Sources */ = {isa = PBXBuildFile; fileRef = 29ED96DA1CC5CF890049E9DB /* PLCrashFrameWalker_arm.c */; };
+		29ED96E31CC5CF890049E9DB /* PLCrashFrameWalker_i386.c in Sources */ = {isa = PBXBuildFile; fileRef = 29ED96DC1CC5CF890049E9DB /* PLCrashFrameWalker_i386.c */; };
+		29ED96E41CC5CF890049E9DB /* PLCrashFrameWalker_x86_64.c in Sources */ = {isa = PBXBuildFile; fileRef = 29ED96DE1CC5CF890049E9DB /* PLCrashFrameWalker_x86_64.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2933528B1CC4DC6200C6F7F6 /* KWToolKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KWToolKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2933528F1CC4DC6200C6F7F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		293352911CC4DC6200C6F7F6 /* NKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NKAppDelegate.h; sourceTree = "<group>"; };
+		293352921CC4DC6200C6F7F6 /* NKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NKAppDelegate.m; sourceTree = "<group>"; };
+		2933529A1CC4DC6200C6F7F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2933529F1CC4DC6200C6F7F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2952EC2D1CC4E67200FF8519 /* KWToolKit.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KWToolKit.pch; path = KWToolKit/KWToolKit.pch; sourceTree = "<group>"; };
+		2952EC2E1CC5109C00FF8519 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2952EC3F1CC5129400FF8519 /* NKCommonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKCommonController.h; sourceTree = "<group>"; };
+		2952EC401CC5129400FF8519 /* NKCommonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKCommonController.m; sourceTree = "<group>"; };
+		2952EC411CC5129400FF8519 /* NKHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKHomeController.h; sourceTree = "<group>"; };
+		2952EC421CC5129400FF8519 /* NKHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKHomeController.m; sourceTree = "<group>"; };
+		2952EC441CC5129400FF8519 /* NKCommonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKCommonView.h; sourceTree = "<group>"; };
+		2952EC451CC5129400FF8519 /* NKCommonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKCommonView.m; sourceTree = "<group>"; };
+		2952EC491CC513CB00FF8519 /* NKStuckTraceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKStuckTraceController.h; sourceTree = "<group>"; };
+		2952EC4A1CC513CB00FF8519 /* NKStuckTraceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKStuckTraceController.m; sourceTree = "<group>"; };
+		29ED96D51CC5CF890049E9DB /* NKTraceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKTraceManager.h; sourceTree = "<group>"; };
+		29ED96D61CC5CF890049E9DB /* NKTraceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKTraceManager.m; sourceTree = "<group>"; };
+		29ED96D81CC5CF890049E9DB /* PLCrashFrameWalker.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PLCrashFrameWalker.c; sourceTree = "<group>"; };
+		29ED96D91CC5CF890049E9DB /* PLCrashFrameWalker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCrashFrameWalker.h; sourceTree = "<group>"; };
+		29ED96DA1CC5CF890049E9DB /* PLCrashFrameWalker_arm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PLCrashFrameWalker_arm.c; sourceTree = "<group>"; };
+		29ED96DB1CC5CF890049E9DB /* PLCrashFrameWalker_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCrashFrameWalker_arm.h; sourceTree = "<group>"; };
+		29ED96DC1CC5CF890049E9DB /* PLCrashFrameWalker_i386.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PLCrashFrameWalker_i386.c; sourceTree = "<group>"; };
+		29ED96DD1CC5CF890049E9DB /* PLCrashFrameWalker_i386.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCrashFrameWalker_i386.h; sourceTree = "<group>"; };
+		29ED96DE1CC5CF890049E9DB /* PLCrashFrameWalker_x86_64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PLCrashFrameWalker_x86_64.c; sourceTree = "<group>"; };
+		29ED96DF1CC5CF890049E9DB /* PLCrashFrameWalker_x86_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCrashFrameWalker_x86_64.h; sourceTree = "<group>"; };
+		39805882F12D786C7AFA8204 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		53B1849566D34606B545DD3E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F50240E87787CB8FE4570A42 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		293352881CC4DC6200C6F7F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1856E64EAA090AFADC5F7C85 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2086C4EFD0B7F3E9DA6C0D75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F50240E87787CB8FE4570A42 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		293352821CC4DC6200C6F7F6 = {
+			isa = PBXGroup;
+			children = (
+				2952EC2D1CC4E67200FF8519 /* KWToolKit.pch */,
+				2933528D1CC4DC6200C6F7F6 /* KWToolKit */,
+				2933528C1CC4DC6200C6F7F6 /* Products */,
+				84CCD1EB41FFFBB51378931F /* Pods */,
+				2086C4EFD0B7F3E9DA6C0D75 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2933528C1CC4DC6200C6F7F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2933528B1CC4DC6200C6F7F6 /* KWToolKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2933528D1CC4DC6200C6F7F6 /* KWToolKit */ = {
+			isa = PBXGroup;
+			children = (
+				29ED96D31CC5CF890049E9DB /* Vendor */,
+				2952EC3E1CC5129400FF8519 /* Controller */,
+				2952EC431CC5129400FF8519 /* View */,
+				2933529A1CC4DC6200C6F7F6 /* Assets.xcassets */,
+				2933529F1CC4DC6200C6F7F6 /* Info.plist */,
+				2952EC2E1CC5109C00FF8519 /* LaunchScreen.storyboard */,
+				293352911CC4DC6200C6F7F6 /* NKAppDelegate.h */,
+				293352921CC4DC6200C6F7F6 /* NKAppDelegate.m */,
+				2933528E1CC4DC6200C6F7F6 /* Supporting Files */,
+			);
+			path = KWToolKit;
+			sourceTree = "<group>";
+		};
+		2933528E1CC4DC6200C6F7F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2933528F1CC4DC6200C6F7F6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2952EC3E1CC5129400FF8519 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2952EC3F1CC5129400FF8519 /* NKCommonController.h */,
+				2952EC401CC5129400FF8519 /* NKCommonController.m */,
+				2952EC411CC5129400FF8519 /* NKHomeController.h */,
+				2952EC421CC5129400FF8519 /* NKHomeController.m */,
+				2952EC491CC513CB00FF8519 /* NKStuckTraceController.h */,
+				2952EC4A1CC513CB00FF8519 /* NKStuckTraceController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2952EC431CC5129400FF8519 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2952EC441CC5129400FF8519 /* NKCommonView.h */,
+				2952EC451CC5129400FF8519 /* NKCommonView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		29ED96D31CC5CF890049E9DB /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				29ED96D41CC5CF890049E9DB /* Tracer */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		29ED96D41CC5CF890049E9DB /* Tracer */ = {
+			isa = PBXGroup;
+			children = (
+				29ED96D51CC5CF890049E9DB /* NKTraceManager.h */,
+				29ED96D61CC5CF890049E9DB /* NKTraceManager.m */,
+				29ED96D71CC5CF890049E9DB /* PLCrashReporter */,
+			);
+			path = Tracer;
+			sourceTree = "<group>";
+		};
+		29ED96D71CC5CF890049E9DB /* PLCrashReporter */ = {
+			isa = PBXGroup;
+			children = (
+				29ED96D81CC5CF890049E9DB /* PLCrashFrameWalker.c */,
+				29ED96D91CC5CF890049E9DB /* PLCrashFrameWalker.h */,
+				29ED96DA1CC5CF890049E9DB /* PLCrashFrameWalker_arm.c */,
+				29ED96DB1CC5CF890049E9DB /* PLCrashFrameWalker_arm.h */,
+				29ED96DC1CC5CF890049E9DB /* PLCrashFrameWalker_i386.c */,
+				29ED96DD1CC5CF890049E9DB /* PLCrashFrameWalker_i386.h */,
+				29ED96DE1CC5CF890049E9DB /* PLCrashFrameWalker_x86_64.c */,
+				29ED96DF1CC5CF890049E9DB /* PLCrashFrameWalker_x86_64.h */,
+			);
+			path = PLCrashReporter;
+			sourceTree = "<group>";
+		};
+		84CCD1EB41FFFBB51378931F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53B1849566D34606B545DD3E /* Pods.debug.xcconfig */,
+				39805882F12D786C7AFA8204 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2933528A1CC4DC6200C6F7F6 /* KWToolKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 293352A21CC4DC6200C6F7F6 /* Build configuration list for PBXNativeTarget "KWToolKit" */;
+			buildPhases = (
+				333B0DF6DDBEC20BB2230DA4 /* Check Pods Manifest.lock */,
+				293352871CC4DC6200C6F7F6 /* Sources */,
+				293352881CC4DC6200C6F7F6 /* Frameworks */,
+				293352891CC4DC6200C6F7F6 /* Resources */,
+				FC810FCC4199E2684B655030 /* Embed Pods Frameworks */,
+				40B75D16B6308C049DCB3BE8 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KWToolKit;
+			productName = KWToolKit;
+			productReference = 2933528B1CC4DC6200C6F7F6 /* KWToolKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		293352831CC4DC6200C6F7F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = KyleWong;
+				TargetAttributes = {
+					2933528A1CC4DC6200C6F7F6 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 293352861CC4DC6200C6F7F6 /* Build configuration list for PBXProject "KWToolKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 293352821CC4DC6200C6F7F6;
+			productRefGroup = 2933528C1CC4DC6200C6F7F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2933528A1CC4DC6200C6F7F6 /* KWToolKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		293352891CC4DC6200C6F7F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2952EC2F1CC5109C00FF8519 /* LaunchScreen.storyboard in Resources */,
+				2933529B1CC4DC6200C6F7F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		333B0DF6DDBEC20BB2230DA4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		40B75D16B6308C049DCB3BE8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC810FCC4199E2684B655030 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		293352871CC4DC6200C6F7F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29ED96E21CC5CF890049E9DB /* PLCrashFrameWalker_arm.c in Sources */,
+				2952EC481CC5129400FF8519 /* NKCommonView.m in Sources */,
+				2952EC461CC5129400FF8519 /* NKCommonController.m in Sources */,
+				29ED96E41CC5CF890049E9DB /* PLCrashFrameWalker_x86_64.c in Sources */,
+				29ED96E31CC5CF890049E9DB /* PLCrashFrameWalker_i386.c in Sources */,
+				29ED96E01CC5CF890049E9DB /* NKTraceManager.m in Sources */,
+				29ED96E11CC5CF890049E9DB /* PLCrashFrameWalker.c in Sources */,
+				293352931CC4DC6200C6F7F6 /* NKAppDelegate.m in Sources */,
+				2952EC471CC5129400FF8519 /* NKHomeController.m in Sources */,
+				293352901CC4DC6200C6F7F6 /* main.m in Sources */,
+				2952EC4B1CC513CB00FF8519 /* NKStuckTraceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		293352A01CC4DC6200C6F7F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		293352A11CC4DC6200C6F7F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		293352A31CC4DC6200C6F7F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53B1849566D34606B545DD3E /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${PRODUCT_NAME}/${PRODUCT_NAME}.pch";
+				INFOPLIST_FILE = KWToolKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wecoop.KWToolKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		293352A41CC4DC6200C6F7F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39805882F12D786C7AFA8204 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${PRODUCT_NAME}/${PRODUCT_NAME}.pch";
+				INFOPLIST_FILE = KWToolKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wecoop.KWToolKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		293352861CC4DC6200C6F7F6 /* Build configuration list for PBXProject "KWToolKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293352A01CC4DC6200C6F7F6 /* Debug */,
+				293352A11CC4DC6200C6F7F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		293352A21CC4DC6200C6F7F6 /* Build configuration list for PBXNativeTarget "KWToolKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293352A31CC4DC6200C6F7F6 /* Debug */,
+				293352A41CC4DC6200C6F7F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 293352831CC4DC6200C6F7F6 /* Project object */;
+}
